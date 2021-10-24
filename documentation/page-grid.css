@@ -1,0 +1,24 @@
+.header { 
+    grid-area: header;
+}
+
+ .tree-nav { 
+    grid-area: tree-nav;
+}
+
+ .main { 
+    grid-area: main;
+    text-align: center;
+}
+
+.footer {
+    grid-area: footer; 
+}
+
+.page-grid {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'tree-nav tree-nav main main main main'
+        'footer footer footer footer footer footer';
+}
